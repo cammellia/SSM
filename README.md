@@ -4,9 +4,9 @@
 首页
 ![image](https://github.com/cammellia/SSM/assets/113841238/9a60e70e-50b8-4959-8d7d-758a8e3f00fe)
 登录
-![image](https://github.com/cammellia/SSM/assets/113841238/fc6ff4cf-5912-4093-80e9-0c5bd9f9793f)
+![image](https://github.com/cammellia/SSM/assets/113841238/e69d4147-3374-41d3-b5b6-4db2d67d3f35)
 注册
-![image](https://github.com/cammellia/SSM/assets/113841238/77a96b48-d4b9-4053-aee1-7789b1d63a41)
+![image](https://github.com/cammellia/SSM/assets/113841238/9aef1656-a356-4ffc-9cd0-864090f4b9d5)
 点击购票进入详情页
 ![image](https://github.com/cammellia/SSM/assets/113841238/2b58986d-78d7-495c-bc96-31ecd90f2caa)
 点击特惠购票进入影院列表
