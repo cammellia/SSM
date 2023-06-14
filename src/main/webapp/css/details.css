@@ -1,0 +1,92 @@
+@import "public.css";
+.content{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background-image: url("../img/bg.png");
+
+}
+.content>.movieImg{
+    width: 15%;
+    height: 90%;
+    border: 5px solid white;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+}
+.content>.movieInfo{
+    width: 17%;
+    height: 72%;
+    position: absolute;
+    left: 33%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content>.movieInfo>.info{
+    width: 100%;
+    height: 45%;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content>.movieInfo>.buts{
+    width: 100%;
+    height: 40%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content>.movieInfo>.buts>.want{
+    width: 48%;
+    height: 40%;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+}
+.content>.movieInfo>.buts>.core{
+    width: 48%;
+    height: 40%;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+}
+.content>.movieInfo>.buts>.buyTicket{
+    width: 100%;
+    height: 40%;
+    border-radius: 3px;
+    background-color: #df2d2d;
+    cursor: pointer;
+}
+.content>.movieCore{
+    width: 12%;
+    height: 35%;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 53%;
+    top: 190px;
+}
+.content>.movieCore>.core{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content>.movieCore>.core>.coreLift{
+    width: 45%;
+    height: 100%;
+}
+.content>.movieCore>.core>.coreRight{
+    width: 64%;
+    height: 100%;
+}

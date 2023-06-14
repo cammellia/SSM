@@ -1,0 +1,189 @@
+@import url(public.css);
+.content{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content>.hotPlaying{
+    width:50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.content>.hotPlaying>.hotPlayingTitle{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: red;
+}
+.content>.hotPlaying>.hotPlayingMovie{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie{
+    width: 23%;
+    height: 47%;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.movieInfo{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.movieInfo>img{
+    width: 100%;
+    height: 100%;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.movieInfo>.info{
+
+    color: white;
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.09), rgba(0, 0, 0, 0.55));
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.movieInfo>.info>.movieName{
+    width: 75%;
+    height: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.buyTicket{
+    width: 100%;
+    height: 20%;
+    color: red;
+    letter-spacing: 5px;
+    border-left: 1px solid #dccecb;
+    border-right: 1px solid #dccecb;
+    border-bottom: 1px solid #dccecb;
+}
+.content>.hotPlaying>.hotPlayingMovie>.movie>.buyTicket:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.content>.todayTicket{
+    width: 30%;
+    height: 90%;
+    margin-left: 80px;
+}
+.content>.todayTicket>.todayTicketTitle{
+    color: red;
+    width: 100%;
+    height: 11%;
+}
+.content>.todayTicket>.todayTicketList{
+    width: 100%;
+    height: 65%;
+}
+.content>.todayTicket>.todayTicketList>.listTop{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e8e5e5;
+}
+.content>.todayTicket>.todayTicketList>.listTop>.ranking{
+    width: 35%;
+    height: 100%;
+
+}
+.content>.todayTicket>.todayTicketList>.listTop>.ranking>img{
+    width: 100%;
+    height: 100%;
+}
+.content>.todayTicket>.todayTicketList>.listTop>.detail{
+    width: 65%;
+    height: 100%;
+}
+.content>.todayTicket>.todayTicketList>.listTop>.detail:hover{
+    background-color: #e3e2e2;
+}
+.content>.todayTicket>.todayTicketList>.listTop>.detail>.detail1{
+    width: 100%;
+    height: 70%;
+    text-indent:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content>.todayTicket>.todayTicketList>.listTop>.detail>.detail2{
+    width: 100%;
+    height: 30%;
+    text-indent:10px;
+}
+.content>.todayTicket>.todayTicketList>.list{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content>.todayTicket>.todayTicketList>.list:hover{
+    background-color: #e3e2e2;
+}
+.content>.todayTicket>.todayTicketList>.list>.ranking{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content>.todayTicket>.todayTicketList>.list>.data{
+    width: 20%;
+    text-align: right;
+    float: right;
+    color: red;
+}
+.content>.todayTicket>.todayTicketCore{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-lift{
+    width: 12%;
+    height: 100%;
+    color: white;
+    letter-spacing:10px;
+    writing-mode:vertical-lr;
+    background-color: red;
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-right{
+    width: 85%;
+    height: 100%;
+
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-right>.todayTicketCore-right1{
+    width: 100%;
+    height: 70%;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-right>.todayTicketCore-right1>.right1-1{
+    align-self: center;
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-right>.todayTicketCore-right1>.right1-2{
+    align-self: center;
+}
+.content>.todayTicket>.todayTicketCore>.todayTicketCore-right>.todayTicketCore-right2{
+    width: 100%;
+    height: 30%;
+}

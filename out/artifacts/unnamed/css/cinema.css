@@ -1,0 +1,63 @@
+@import url(public.css);
+.content{
+    width: 85%;
+}
+.title{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    border-left: 8px solid red;
+    padding-left: 5px;
+}
+.cinemaList{
+    width: 100%;
+}
+.cinema{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bbbaba;
+}
+.cinemaInfor{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cinemaTicket{
+    width: 12%;
+    height:90% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cinemaAddress{
+    color: #bbbaba;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.type span{
+    border: 1px solid #5ca6cd;
+    color: #5ca6cd;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.price{
+    color: red;
+}
+.buyTicket{
+    width: 60%;
+    height: 30%;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #ec8d8d;
+}

@@ -1,0 +1,171 @@
+@import url(public.css);
+.content{
+    width: 100%;
+    height: 1000px;
+}
+/* 使用弹性居中布局让所有分部居中水平排列 */
+.steps {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 进度线宽，4份，25% */
+.step {
+    width: 25%;
+    height: 20px;
+}
+
+/* 进度线和序号，使用弹性居中布局让序号和进度线居中 */
+.step-progress {
+    display: flex;
+    justify-content: center;
+}
+
+/* 文本居中 */
+.step-text {
+    width: 100%;
+    margin-top: 10px;
+    color: #bbbaba;
+    text-align: center;
+}
+
+/* 进度线 */
+.step-line {
+    width: 100%;
+    height: 9px;
+    margin-top: 7px;
+    background-color: #cccccc;
+}
+
+/* 数字序号 */
+.step-num {
+    width: 18px;
+    height: 18px;
+    line-height: 17px;
+    /* 圆角背景 */
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 16px;
+    /* 序号居中显示 */
+    text-align: center;
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    /* 使用相对于父元素定位，强行回到原来的位置 */
+    position: absolute;
+}
+
+/* 使用渐变背景处理两边 */
+.step-progress.right div{
+    background: linear-gradient(to right, #cccccc 0%, #cccccc 50%, transparent 51%, transparent 100%);
+}
+
+.step-progress.left div{
+    background: linear-gradient(to left, #cccccc 0%, #cccccc 50%, transparent 51%, transparent 100%);
+}
+
+/* 完成效果 */
+.step-progress.done div{
+    background: #ea4444;
+}
+.step-progress.done span{
+    background-color: #ea4444;
+    border: 2px solid #ea4444;
+}
+
+/* 完成效果左右两边特制 */
+.step-progress.right.done div{
+    background: linear-gradient(to right, #ea4444 0%, #ea4444 50%, transparent 51%, transparent 100%);
+}
+
+.step-progress.left.done div{
+    background: linear-gradient(to left, #ea4444 0%, #ea4444 50%, transparent 51%, transparent 100%);
+}
+.choose{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+    border: 1px solid #bbbaba;
+    display: flex;
+    flex-direction: row;
+}
+.seat{
+    width:70%;
+    height: 100%;
+}
+.seat-example{
+    width: 100%;
+    height: 100px;
+}
+.selected{
+    margin: 10px;
+}
+.sold{
+    margin: 10px;
+}
+.selected{
+    margin: 10px;
+}
+.couple{
+    margin: 10px;
+}
+.seatView{
+    width: 100%;
+    height: 500px;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+.confirm{
+    width: 30%;
+    height: 100%;
+    background-color: #f6f5f5;
+}
+.movieInformation{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.movieImg{
+    width:35%;
+    height:100%;
+}
+.movieImg>img{
+    margin: 15px;
+}
+.movieInfo{
+    width:65%;
+    height:100%;
+}
+.cinemaInformation{
+    width: 95%;
+    height: 27%;
+    margin-left: 10px;
+    border-bottom: 1px solid #bbbaba;
+}
+.declare{
+    width: 95%;
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #bbbaba;
+}
+.confirmBtn{
+    width: 100%;
+    height: 23%;
+}
+.btnConfirm{
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #ec8d8d;
+}

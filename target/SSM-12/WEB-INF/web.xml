@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+  <!--将spring组装到javaweb框架上-->
+  <!--当javaweb框架在启动的时候，会自动去加载spring-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:springContent.xml</param-value>
+  </context-param>
+  <!--添加spring的监听器-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <!--添加javaWeb对springMVC的支持-->
+  <servlet>
+    <servlet-name>springMVC</servlet-name>
+    <!--设置前端控制器-->
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!--给前端控制器添加一些属性-->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath*:springMVC.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>springMVC</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+<!--请求中文件编码格式的设置-->
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+
+
+
+
+
+
+
+
+
+</web-app>

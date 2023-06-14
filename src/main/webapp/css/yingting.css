@@ -1,0 +1,72 @@
+@import url(public.css);
+.main{
+    width: 90%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.content{
+    width: 90%;
+    height: 650px;
+    position: absolute;
+    top: 100px;
+}
+.content>.ViewingTime1{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.content>.ViewingTime1>.time {
+    width: 10%;
+    height: 50%;
+    margin: 5px;
+    color: #bbbaba;
+}
+.content>.ViewingTime1>.detailTime{
+    width: 10%;
+    height: 50%;
+    color: black;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:transparent;
+}
+.content>.ViewingTime1>.detailTime:hover{
+    color: red;
+}
+.content>.ViewingTime1>.detailTime:focus{
+    background-color: red;
+    color: white;
+}
+.content>.ViewingTime2{
+    width: 90%;
+    height: 90%;
+}
+.content>.ViewingTime2>table{
+    width: 100%;
+}
+.content>.ViewingTime2>table tr{
+    height: 50px;
+}
+.content>.ViewingTime2>table td,th{
+    border: none;
+    text-align: center;
+}
+.content>.ViewingTime2>table tr:nth-child(odd){
+    background-color: #f6f4f4;
+}
+.content>.ViewingTime2>table tr td>.buy{
+    width: 90px;
+    height: 30px;
+    color: white;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #ec8d8d;
+}
