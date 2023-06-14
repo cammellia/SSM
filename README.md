@@ -1,0 +1,19 @@
+# SSM
+基于ssm框架和layUI的仿猫眼电影购票网站
+运行截图如下
+首页
+![image](https://github.com/cammellia/SSM/assets/113841238/9a60e70e-50b8-4959-8d7d-758a8e3f00fe)
+登录
+![image](https://github.com/cammellia/SSM/assets/113841238/fc6ff4cf-5912-4093-80e9-0c5bd9f9793f)
+注册
+![image](https://github.com/cammellia/SSM/assets/113841238/77a96b48-d4b9-4053-aee1-7789b1d63a41)
+点击购票进入详情页
+![image](https://github.com/cammellia/SSM/assets/113841238/2b58986d-78d7-495c-bc96-31ecd90f2caa)
+点击特惠购票进入影院列表
+![image](https://github.com/cammellia/SSM/assets/113841238/7fb04af9-bc2a-4b04-9993-91c75b2c9764)
+点击选座购票进入影院
+![image](https://github.com/cammellia/SSM/assets/113841238/c9193385-b4f4-4291-95d2-876751cb321f)
+点击购票
+![image](https://github.com/cammellia/SSM/assets/113841238/28c0e5e8-dbb3-4990-8b5e-9b3c72bce820)
+购票限制以及总价
+![image](https://github.com/cammellia/SSM/assets/113841238/7674ad4f-b0e3-4902-b2ed-ea9027cec91a)
