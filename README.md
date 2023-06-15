@@ -12,7 +12,7 @@
 点击特惠购票进入影院列表
 ![image](https://github.com/cammellia/SSM/assets/113841238/7fb04af9-bc2a-4b04-9993-91c75b2c9764)
 点击选座购票进入影院
-![image](https://github.com/cammellia/SSM/assets/113841238/c9193385-b4f4-4291-95d2-876751cb321f)
+![image](https://github.com/cammellia/SSM/assets/113841238/611e1411-efd2-432b-b99a-e926887751b2)
 点击购票
 ![image](https://github.com/cammellia/SSM/assets/113841238/28c0e5e8-dbb3-4990-8b5e-9b3c72bce820)
 购票限制以及总价
